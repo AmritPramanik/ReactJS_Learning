@@ -9,12 +9,13 @@ body{
 }
 
 .card{
-    display: flex;
-    margin: 40px 60px;
-    gap: 8vh;
+  display: flex;
+  margin: 40px 60px;
+  gap: 8vh;
 }
 .innerBox{
-    padding: 15px 20px;
-    background: #383838;
-    border-radius: 10px;
+  text-align: center;
+  padding: 20px;
+  background: #222;
+  border-radius: 10px;
 }

@@ -6,7 +6,7 @@ const Props = (props) => {
       <h1>{props.name}</h1>
       <h3>Department : {props.dpt}</h3>
       <h3>Score : {props.score}</h3>
-      <h4>Frontend Developer & ML</h4>
+      <p>Frontend Developer & ML</p>
     </div>
   )
 }
