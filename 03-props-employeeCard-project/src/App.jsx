@@ -6,8 +6,9 @@ const App = () => {
   return (
     <div className='parent'>
       {
-        jobOpenings.map(data =>(
-          <Card 
+        jobOpenings.map((data,index) =>(
+          <div key={index}>
+            <Card 
             logo={data.brandLogo}
             companyName = {data.companyName}
             datePosted = {data.datePosted}
@@ -17,6 +18,7 @@ const App = () => {
             tag2 = {data.tag2}
             location = {data.location}
           />
+          </div>
         ))
       }
     </div>
