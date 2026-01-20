@@ -9,3 +9,44 @@ html, body {
   height: 100%;
   width: 100%;
 }
+
+body{
+  background-color: #111;
+  color: white;
+}
+
+.parent{
+  padding: 40px 60px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px
+}
+
+.card{
+  width: 300px;
+  background: #222;
+  padding: 20px;
+  border: 2px solid white;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.card img{
+  height: 120px;
+  width: 120px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 2px solid white;
+}
+
+.card p{
+  margin: 20px;
+}
+
+.card button{
+  padding: 10px 20px;
+  background-color: white;
+  color: black;
+  border-radius: 5px;
+  border: none;
+}
