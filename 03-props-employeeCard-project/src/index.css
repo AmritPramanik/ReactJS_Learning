@@ -48,7 +48,7 @@ html, body {
 .top button{
   display: flex;
   align-items: center;
-  padding: 7px 10px;
+  padding: 5px 10px;
   border: 1px solid #cccccc;
   border-radius: 5px;
   background-color: #fff;
